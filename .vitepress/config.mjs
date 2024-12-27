@@ -1,14 +1,21 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: 'zzlhpdk',
+  description: 'A Personal Channel',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      {
+        text: '首页',
+        items: [
+          { text: '首页', link: '/' },
+          { text: '示例', link: '/markdown-examples' }
+        ]
+      },
+      { text: '示例', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -21,8 +28,9 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/zzlhpdk' }],
+    footer: {
+      copyright: '© 2023 zzlhpdk'
+    }
   }
-})
+});

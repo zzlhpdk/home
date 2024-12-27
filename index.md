@@ -3,15 +3,18 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: '您好'
+  text: '时不时更新一点点东西'
+  tagline: 好好学习，天天向上,
+  image:
+    src: /home.png
+    alt: 主页图
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: zzlhpdk-ui
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: blog
       link: /api-examples
 
 features:
@@ -22,4 +25,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
