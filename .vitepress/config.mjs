@@ -4,34 +4,34 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'zzlhpdk',
   description: 'A Personal Channel',
+  head: [['link', { rel: 'zzlhpdk', href: '/protal/favicon.ico' }]],
   base: '/protal/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
+    siteTitle: false,
+    outline: [1, 6],
+    outlineTitle: '标题',
     nav: [
       {
-        text: '首页',
-        items: [
-          { text: '首页', link: '/' },
-          { text: '示例', link: '/markdown-examples' }
-        ]
+        text: '组件',
+        link: '/view/zzlhpdk-ui/index'
       },
-      { text: '示例', link: '/markdown-examples' }
+      { text: '博客', link: '/blog/index' }
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: '导航',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'zzlhpdk-ui', link: '/view/zzlhpdk-ui/index' },
+          { text: 'blog', link: '/view/blog/index' }
         ]
       }
     ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/zzlhpdk' }],
     footer: {
-      copyright: '© 2023 zzlhpdk'
+      copyright: '© 2025 zzlhpdk'
     }
   }
 });

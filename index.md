@@ -3,25 +3,28 @@
 layout: home
 
 hero:
-  name: '您好'
-  text: '时不时更新一点点东西'
-  tagline: 好好学习，天天向上,
+  name: 'hello!'
+  text: '好好学习，天天向上!'
+  tagline: 分享前端技术，记录开发点滴。
   image:
     src: /home.png
     alt: 主页图
   actions:
     - theme: brand
       text: zzlhpdk-ui
-      link: /markdown-examples
+      link: /view/zzlhpdk-ui/index
     - theme: alt
       text: blog
-      link: /api-examples
+      link: /view/blog/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ✈️
+    title: zzlhpdk-ui
+    details: Vite + Vue3 + Element-Plus
+  - icon: 🎉
+    title: Pikachu-Admin
+    details: Vite + React18 + zustand + Ant-Design
+  - icon: 🎉
+    title: Bulbasaur-Admin
+    details: Vite + Vue3 + TypeScript
 ---
