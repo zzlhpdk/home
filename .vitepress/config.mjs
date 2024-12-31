@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'zzlhpdk',
   description: 'A Personal Channel',
-  head: [['link', { rel: 'zzlhpdk', href: '/protal/favicon.ico' }]],
-  base: '/protal/',
+  head: [['link', { rel: 'zzlhpdk', href: '/home/favicon.ico' }]],
+  base: '/home/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
