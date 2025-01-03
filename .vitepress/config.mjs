@@ -17,14 +17,51 @@ export default defineConfig({
         text: '组件',
         link: '/view/zzlhpdk-ui/index'
       },
-      { text: '博客', link: '/blog/index' }
+      {
+        text: '后管系统',
+        items: [
+          { text: 'Pikachu-Admin', link: '/view/manage/pikachu-admin' },
+          { text: 'bulbasaur-admin', link: '/view/manage/bulbasaur-admin' }
+        ]
+      },
+      {
+        text: '博客',
+        link: '/view/zzlhpdk-ui/index'
+      }
     ],
     sidebar: [
       {
-        text: '导航',
+        text: '业务',
         items: [
-          { text: 'zzlhpdk-ui', link: '/view/zzlhpdk-ui/index' },
-          { text: 'blog', link: '/view/blog/index' }
+          {
+            text: 'component',
+            items: [{ text: 'zzlhpdk-ui', link: '/view/zzlhpdk-ui/index' }]
+          },
+          {
+            text: 'function',
+            items: [{ text: 'axios封装', link: '/view/zzlhpdk-ui/index' }]
+          }
+        ]
+      },
+      {
+        text: '后管系统',
+        items: [
+          { text: 'Pikachu-Admin', link: '/view/manage/pikachu-admin' },
+          { text: 'bulbasaur-admin', link: '/view/manage/bulbasaur-admin' }
+        ]
+      },
+      {
+        text: '博客',
+        items: [
+          { text: 'Javascript', link: '/view/blog/javascript/index' },
+          {
+            text: 'Vue',
+            link: '/view/blog/vue/index'
+          },
+          {
+            text: 'work',
+            link: '/view/blog/work/index'
+          }
         ]
       }
     ],
