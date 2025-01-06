@@ -10,12 +10,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
     siteTitle: false,
-    outline: [1, 6],
+    outline: [1, 3],
     outlineTitle: '标题',
     nav: [
       {
         text: '组件',
-        link: '/view/zzlhpdk-ui/index'
+        link: '/view/business/component/zzlhpdk-ui/index'
       },
       {
         text: '后管系统',
@@ -26,7 +26,7 @@ export default defineConfig({
       },
       {
         text: '博客',
-        link: '/view/zzlhpdk-ui/index'
+        link: '/view//blog/javascript/index.md'
       }
     ],
     sidebar: [
@@ -34,12 +34,20 @@ export default defineConfig({
         text: '业务',
         items: [
           {
-            text: 'component',
-            items: [{ text: 'zzlhpdk-ui', link: '/view/zzlhpdk-ui/index' }]
+            text: '组件库',
+            items: [
+              {
+                text: 'zzlhpdk-ui',
+                link: '/view/business/component/zzlhpdk-ui'
+              }
+            ]
           },
           {
-            text: 'function',
-            items: [{ text: 'axios封装', link: '/view/zzlhpdk-ui/index' }]
+            text: '工具库',
+            items: [
+              { text: '网络请求', link: '/view/business/function/request' },
+              { text: '文件下载', link: '/view/business/function/file' }
+            ]
           }
         ]
       },
@@ -53,14 +61,14 @@ export default defineConfig({
       {
         text: '博客',
         items: [
-          { text: 'Javascript', link: '/view/blog/javascript/index' },
+          { text: 'Js面试题', link: '/view/blog/javascript/index' },
           {
-            text: 'Vue',
+            text: 'Vue面试题',
             link: '/view/blog/vue/index'
           },
           {
-            text: 'work',
-            link: '/view/blog/work/index'
+            text: '网络传输面试题',
+            link: '/view/blog/internet/index'
           }
         ]
       }

@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: zzlhpdk-ui
-      link: /view/zzlhpdk-ui/index
+      link: /view/business/component/zzlhpdk-ui/index
     - theme: alt
       text: blog
-      link: /view/blog/index
+      link: /view/blog/javascript/index
 
 features:
   - icon: ✈️
